@@ -10,7 +10,7 @@ def esBinario(numero):
 try:
     decimal = int(input("Introduce un número en binario: "), 2)
     print(f"El número introducido en decimal es {decimal}")
-except:
+except ValueError:
     print("Debes introducir un número binario")
 
 # En esta segunda forma se calcula el número con las divisiones sucesivas
