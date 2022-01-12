@@ -18,7 +18,7 @@ except ValueError:
 #     binario = input("Introduce un número binario: ")
 
 #     if not esBinario(binario):
-#        raise Exception()
+#        raise ValueError
             
 #     digitos = [int(i) for i in str(binario)]
 #     digitos.reverse()
